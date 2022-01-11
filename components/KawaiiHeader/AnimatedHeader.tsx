@@ -15,7 +15,7 @@ const AnimatedHeader = ({
   onComplete,
 }: AnimatedHeaderProps) => (
   <Header size="huge" as="h1" onClick={onClick}>
-    Platzi
+    Store
     <Transition
       animation="jiggle"
       visible={visible}
